@@ -1,7 +1,3 @@
-<a href='http://www.multipathaudio.com'><img src='http://multipathaudio.com/design.jpg' /></a>
-
-More info and hear the player in action at [Multipathaudio.com](http://www.multipathaudio.com)
-
 # The idea #
 When a band makes a recording, they usually do a bunch of takes, say 5 or 6 alternate versions. Instead of throwing away most of this raw music, and ending up with a single 3 minute track, let's use a "smart" music player to combine parts of it to make a different but seamless performance every time you hit play.
 
