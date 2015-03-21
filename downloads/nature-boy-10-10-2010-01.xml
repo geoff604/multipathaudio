@@ -1,0 +1,188 @@
+<song>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/intro.mp3</audio>
+	<id>intro</id>
+</segment>
+
+<segment>
+	<id>solo</id>
+</segment>
+
+<branch>
+	<choice>
+		<weight>1</weight>
+		<id>end</id>
+		<condition>
+			<id>solo</id>
+			<min>3</min>
+		</condition>
+	</choice>
+	<choice>
+		<weight>1000</weight>
+		<id>s2</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>
+	<choice>
+		<weight>1000</weight>
+		<id>s3</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>	
+	<choice>
+		<weight>1000</weight>
+		<id>s4</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>
+	<choice>
+		<weight>1000</weight>
+		<id>s5</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>
+	<choice>
+		<weight>1000</weight>
+		<id>s6</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>
+	<choice>
+		<weight>1000</weight>
+		<id>s7</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>
+	<choice>
+		<weight>1000</weight>
+		<id>s8</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>
+	<choice>
+		<weight>1000</weight>
+		<id>s9</id>
+		<condition>
+			<id>solo</id>
+			<min>0</min>
+			<max>3</max>
+		</condition>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/2.mp3</audio>
+	<id>s2</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/3.mp3</audio>
+	<id>s3</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/4.mp3</audio>
+	<id>s4</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/5.mp3</audio>
+	<id>s5</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/6.mp3</audio>
+	<id>s6</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/7.mp3</audio>
+	<id>s7</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/8.mp3</audio>
+	<id>s8</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/9.mp3</audio>
+	<id>s9</id>
+</segment>
+
+<branch>
+	<choice>
+		<id>solo</id>
+	</choice>
+</branch>
+
+<segment>
+	<audio>http://www.multipathaudio.com/sample/end.mp3</audio>
+	<id>end</id>
+</segment>
+
+</song>
