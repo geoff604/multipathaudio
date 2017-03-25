@@ -1,0 +1,21 @@
+<html><head>
+        <title>Your website</title>
+
+
+        <script type="text/javascript" src="audio-player.js"></script>
+        <script type="text/javascript">
+            AudioPlayer.setup("player.swf", {
+                width: 290
+            });
+        </script><style type="text/css" media="screen">p.audioplayer_container span {visibility:hidden;height:24px;overflow:hidden;padding:0;border:none;}</style>
+
+    </head>
+    <body>
+
+        <object type="application/x-shockwave-flash" name="audioplayer_1" style="outline: none" data="player.swf" id="audioplayer_1" height="24" width="290"><param name="wmode" value="opaque"><param name="menu" value="false"><param name="flashvars" value="soundFile=nature-boy.xml&amp;playerID=audioplayer_1"></object>
+        <script type="text/javascript">
+        AudioPlayer.embed("audioplayer_1", {soundFile: "nature-boy.xml"});
+        </script>
+
+    
+</body></html>
